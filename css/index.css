@@ -1,3 +1,13 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+header {
+  padding: 20px 0;
+}
 
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 12px;
+  color: grey;
+}
