@@ -1,0 +1,53 @@
+/* Styling for resonsive layouts */
+
+@media only screen and (max-width: 900px) {
+  .top-nav {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  header {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .top-row {
+    display: block;
+  }
+
+  .top-row-col {
+    width: 100%;
+  }
+
+  .top-img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .top-nav {
+    flex-direction: column;
+    font-size: 25px;
+  }
+
+  .top-nav span {
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+  }
+
+  .top-nav:nth-child(1) {
+    border-top: 1px solid black;
+  }
+
+  .details-row1,
+  .details-row2 {
+    display: block;
+  }
+
+  .details-row1 .details-col,
+  .details-row2 .details-col {
+    width: 100%;
+    margin: 30px 0;
+  }
+}
